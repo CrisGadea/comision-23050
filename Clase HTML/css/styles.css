@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+  /*
+ Selector Universal CSS (*)
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+/* Selector de Etiqueta */
+body{
+    background-color: #ffff00;
+}
+
+p{
+    color: #ff0000;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    color: #1919e2;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Selector ID */
+#parrafoVerde{
+    color: #33f13f;
+}
+
+/* Selector de Class */
+.textoMarron{
+    color: #a52a2a;
+}
+
+.colorModificado{
+    color: #8a2be2;
+}
