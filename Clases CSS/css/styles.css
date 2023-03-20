@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    /* Gradiantes */
+    /*
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    */
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    margin: 25px;
+    padding: 30px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    /*flex-direction: column-reverse;*/
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+}
+
+#caja1, #caja2, #caja3, #caja4, #caja5{
+    background-color: red;
+    border: 2px solid black;
+    width: 200px;
+}
+
+section{
+    margin: 20px;
+    border: 2px solid black;
+}
+
+article{
+    border: 3px solid red;
+    padding: 50px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+}
