@@ -37,6 +37,39 @@ div{
     width: 200px;
 }
 
+#positions{
+    
+    position: sticky;
+    right: 0;
+    z-index: 1;
+
+}
+
+#saludo{
+    /*display: none;*/
+    background-color: red;
+    transition: background-color 5s;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    from{
+        background-color: blue;
+        height: 90px;
+    }
+
+    to{
+        height: 140px;
+        background-color: darkgoldenrod;
+    }
+}
+
+#saludo:hover{
+    background-color: yellow;
+}
+
 section{
     margin: 20px;
     border: 2px solid black;
