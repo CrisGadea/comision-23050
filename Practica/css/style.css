@@ -1,0 +1,61 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+aside{
+    border: 1px solid blue;
+    background-color: bisque;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer{
+    text-align: center;
+}
+
+#art1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: blanchedalmond;
+    background-color: blue;
+    text-align: center;
+}
+
+#seccionPrincipal{
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+}
+
+
+#mapa{
+    width: 200px;
+    height: 200px;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+#radius{
+    border-radius: 100px;
+}
+
+
+.imgHelado{
+    width: 100px;
+    height: 100px;
+}
+
+.articulos{
+    background-color: bisque;
+    border: 1px solid black;
+    padding-left: 20px;
+}
