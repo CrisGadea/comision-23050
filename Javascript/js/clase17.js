@@ -48,7 +48,7 @@ while (j < 10) {
     console.log("El valor de i con While es: " + j);
     j++;
 }
-*/
+
 // Funciones
 
 // Creamos una funcion llamada saludar que nos devuelve un mensaje en pantalla (sin return)
@@ -69,7 +69,55 @@ function esMayorDeEdad(edad){
         return "Es Mayor";
     }
 }
+
 var edad = parseInt(prompt("Ingrese su edad"));
 console.log(esMayorDeEdad(edad));
 
+// Ejemplo de Clousure
+var calcular = function(num1, num2){
+
+    var suma = num1 + num2;
+    
+    function validarNumeros(suma, num2){
+
+        return suma > num2;
+    }
+
+} 
+
+
+// Arrow Function
+
+// Si la funcion unicamente devuelve un dato, podemos precindir de la palabra return y {}
+var hola = () => "hola";
+
+// ejecutamos la función
+hola();
+
+
+var saludar = nombre => {
+    console.log(nombre);
+}
+
+var resta = (num1, num2) => {
+
+}
+
+*/
+
+
+
+// Arrays
+
+var miPrimerArray = ['Cristian', "Gadea", 26, true]; // 4 elementos
+
+// Forma For each
+miPrimerArray.forEach(elemento => {
+    console.log(elemento);
+});
+
+// Forma For Tradicional
+for (let i = 0; i < miPrimerArray.length; i++) {
+    console.log(miPrimerArray[i]);
+}
 
