@@ -103,7 +103,7 @@ var resta = (num1, num2) => {
 
 }
 
-*/
+
 
 
 
@@ -120,4 +120,41 @@ miPrimerArray.forEach(elemento => {
 for (let i = 0; i < miPrimerArray.length; i++) {
     console.log(miPrimerArray[i]);
 }
+*/
+
+// DOM desde Javascript
+
+// Obtener etiqueta h1 desde javascript
+
+// Query Selector: Trae la primer etiqueta que cumpla con el nombre indicado
+// Si se quiere buscar un id o class, se debe indicar el signo del selector css
+// . -> class
+// # -> id
+const h1 = document.querySelector("h1");
+
+// Si quieren traerse todas las etiquetas que tengan una clase
+const parrafoVerde = document.querySelectorAll(".parrafoVerde");
+
+const h1Id = document.getElementById("titulo");
+// Modificar el texto de una etiqueta
+h1Id.innerHTML = "HOLA SOY CRIS";
+
+// Modificar los estilos css desde js
+h1Id.style.color = "red";
+h1Id.style.textAlign = "center";
+
+console.log(h1Id);
+
+
+
+// Agregar una etiqueta al html
+//body.appendChild(h1Id);
+document.body.style.backgroundColor = "blue";
+
+// Eliminar una etiqueta html desde js
+//body.removeChild(h1Id);
+
+
+
+
 
