@@ -3,9 +3,9 @@
 // Solución 1
 
 //var nombre = "Cristian";
-var apellido = "Gadea";
-var comision = 23050;
-var hobbies = ["Leer", "Estudiar", "Hacer Cursos", "Tocar la guitarra"];
+//var apellido = "Gadea";
+//var comision = 23050;
+//var hobbies = ["Leer", "Estudiar", "Hacer Cursos", "Tocar la guitarra"];
 
 //console.log(nombre, apellido, comision);
 //console.table(hobbies);
@@ -81,9 +81,9 @@ var hobbies = ["Leer", "Estudiar", "Hacer Cursos", "Tocar la guitarra"];
 
 // Para obtener el año ingresado como número debemos usar la función
 // parseInt() de Js
-let anio = parseInt(prompt("Ingrese su año de nacimiento"));
+//let anio = parseInt(prompt("Ingrese su año de nacimiento"));
 
-const anioActual = 2023;
+//const anioActual = 2023;
 
 // Solución 2: Función
 /*
@@ -91,8 +91,37 @@ function calcularEdad(anioNacimiento){
     return anioActual - anioNacimiento;
 }*/
 
-const calcularEdad = anioNacimiento => anioActual - anioNacimiento;
+//const calcularEdad = anioNacimiento => anioActual - anioNacimiento;
 
-let edad = calcularEdad(anio);
+//let edad = calcularEdad(anio);
 
-alert("Tiene " + edad + " años");
+//alert("Tiene " + edad + " años");
+
+
+
+var titulo = document.getElementById("titulo");
+titulo.innerHTML = "Hola Mundo";
+
+console.log(titulo)
+
+//document.body.style.backgroundColor = "green";
+titulo.style.textAlign = "center"
+
+
+// Declaración de la Función ver Fecha
+function verFecha(){
+    document.getElementById("fecha").innerHTML = Date();
+}
+
+
+var form = document.getElementById("form");
+
+form.addEventListener("submit", e => {
+    e.preventDefault();
+
+    let nombre = document.getElementById("nombre").value;
+    let password = document.getElementById("password").value;
+
+    console.log(nombre, password);
+
+})
